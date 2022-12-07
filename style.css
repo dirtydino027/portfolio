@@ -1,0 +1,118 @@
+#header {
+    display: flex;
+}
+@keyframes dinoStrut {
+    0% {left:0px; top:0px}
+    100% {left:1300px; top:0px}
+    /* 0% {left:0px; top:0px}
+    97% {left:1400px; top:0px}
+    100% {left:-120px; top:0px} */
+}
+#pinkdino {
+    width: 100px;
+    margin-left: 10px;
+    position: relative;
+    animation: dinoStrut 14s ease-in-out;
+}
+body {
+    background-color: rgb(253, 242, 228);
+    background-image: url("cutiecloud.png");
+    /* background-size: 790px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -190px; */
+    background-size: 200px;
+    background-blend-mode: lighten;
+}
+#intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(209, 71, 140);
+    line-height: 2.0;
+    font-size: 22px;
+    text-shadow: rgba(209, 71, 140, 0.5) 5px 2px 10px;
+}
+#work {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 30px;
+    column-gap: 100px;
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+.project {
+    background-color: rgb(209, 71, 140);
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    transition: 0.3s;
+}
+#project1 {
+    background-image: url("cutietoast.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#project2 {
+    background-image: url("cutiefish.png");
+    background-size: 270px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#project3 {
+    background-image: url("maddydino3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+#project4 {
+    background-image: url("cutiecloud.png");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.project:hover {
+    box-shadow: 0px 10px 20px rgb(209, 71, 140);
+    background-image: none !important;
+    /* background-blend-mode: lighten; */
+    background-color: rgba(209, 71, 140, 0.5);
+}
+/* #project1 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    position: relative;
+}
+#project1:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    position: absolute;
+    content: "";
+    top: 30px;
+    left: -50px;
+} */
+.title {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    color: rgba(209, 71, 140, 0);
+}
+.title:hover {
+    color: rgb(209, 71, 140);
+
+}
+.link {
+    text-decoration: none;
+}
