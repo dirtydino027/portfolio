@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: rgb(253, 242, 228);
+    background-image: url("cutiecloud.png");
+    background-size: 200px;
+    background-blend-mode: lighten;
+}
+#website {
+    border: 5px solid rgba(209, 71, 140, 0.637);
+    margin-bottom: 50px;
+}
+h1 {
+    color: rgb(209, 71, 140);
+    font-size: 50px;
+    text-shadow: rgba(209, 71, 140, 0.5) 5px 2px 10px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+#pinkdino {
+    width: 100px;
+    margin-left: 10px;
+    position: relative;
+    animation: dinoStrut 14s ease-in-out;
+}
+#pinkdino:hover {
+    cursor: pointer;
+}
+#header {
+    display: flex;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(209, 71, 140);
+    line-height: 2.0;
+    font-size: 19px;
+    text-shadow: rgba(209, 71, 140, 0.5) 5px 2px 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.subheader {
+    text-decoration: underline;
+    font-size: 22px;
+}
+#homebutton {
+    align-content: center;
+}
