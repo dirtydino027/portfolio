@@ -4,9 +4,6 @@
 @keyframes dinoStrut {
     0% {left:0px; top:0px}
     100% {left:1300px; top:0px}
-    /* 0% {left:0px; top:0px}
-    97% {left:1400px; top:0px}
-    100% {left:-120px; top:0px} */
 }
 #pinkdino {
     width: 100px;
@@ -32,7 +29,6 @@ body {
 #skills {
     display: flex;
     justify-content: center;
-    /* text-align: center; */
     color: rgb(209, 71, 140);
     line-height: 2.0;
     font-size: 22px;
@@ -110,28 +106,8 @@ hr {
 .project:hover {
     box-shadow: 0px 10px 20px rgb(209, 71, 140);
     background-image: none !important;
-    /* background-blend-mode: lighten; */
     background-color: rgba(209, 71, 140, 0.5);
 }
-/* #project1 {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
-    position: relative;
-}
-#project1:after {
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
-    position: absolute;
-    content: "";
-    top: 30px;
-    left: -50px;
-} */
 .title {
     width: 300px;
     height: 200px;
